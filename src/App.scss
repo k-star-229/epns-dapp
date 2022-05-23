@@ -1,0 +1,29 @@
+.itemT {
+  display: flex;
+  justify-content: space-around;
+  width:300px !important;
+}
+.channel {
+  // flex: 1 1 0%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(238, 238, 238);
+  margin: 15px 0px;
+  color: #FF5757;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 10px;
+  align-self: stretch;
+  .channel-name {
+    font-weight: 600;
+    color: rgb(226, 8, 128);
+    font-size: 20px;
+  }
+}
+.scroller {
+  overflow-y: scroll;
+  height:600px;
+}
